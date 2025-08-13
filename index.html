@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<title>Derm AI — Prototype</title>
+<style>
+body { font-family: sans-serif; margin: 24px; }
+.preview { width: 100%; max-height: 400px; object-fit: contain; }
+</style>
+</head>
+<body>
+<h1>Derm AI — Prototype éducatif</h1>
+<input type="file" id="file" accept="image/png, image/jpeg">
+<button id="analyze">Analyser</button>
+<img id="preview" class="preview">
+<div id="results" style="display:none;">
+<p>Score: <span id="score"></span> — Label: <span id="label"></span></p>
+<img id="heatmap" class="preview">
+<div id="warnings"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
