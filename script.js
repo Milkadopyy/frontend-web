@@ -1,4 +1,4 @@
-const API = 'https://backend-18-3lv2.onrender.com';
+const API = 'https://backend-18-3lv2.onrender.com/health';
 const fileInput = document.getElementById('file');
 const preview = document.getElementById('preview');
 const analyzeBtn = document.getElementById('analyze');
