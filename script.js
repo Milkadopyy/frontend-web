@@ -1,4 +1,4 @@
-const API = 'https://TON_BACKEND_RENDER_URL/predict';
+const API = 'https://backend-18-3lv2.onrender.com';
 const fileInput = document.getElementById('file');
 const preview = document.getElementById('preview');
 const analyzeBtn = document.getElementById('analyze');
